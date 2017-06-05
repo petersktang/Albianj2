@@ -51,7 +51,7 @@ import org.albianj.net.MemoryToIOStream;
 import org.albianj.verify.Validate;
 import org.apache.commons.codec.binary.Base64;
 
-import static com.sun.javafx.tools.resource.DeployResource.Type.jar;
+// import static com.sun.javafx.tools.resource.DeployResource.Type.jar;
 
 public class AlbianBootService {
 	@SuppressWarnings("resource")
