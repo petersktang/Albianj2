@@ -35,5 +35,6 @@ include 'Albianj.Restful.Impl'
 include 'Albianj.Security'
 include 'Albianj.Security.Impl'
 include 'Albianj.UNID'
+include 'Albianj.UNID.Impl'
 include 'Yuewen.PPLogStat'
 
