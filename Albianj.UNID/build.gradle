@@ -1,0 +1,4 @@
+dependencies {
+    compile project(":Albianj.Commons")
+    compile project(":Albianj.Kernel")
+}

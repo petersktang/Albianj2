@@ -1,0 +1,5 @@
+dependencies {
+    compile project(":Albianj.Commons")
+    compile project(":Albianj.Kernel")
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
+}

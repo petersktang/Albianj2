@@ -1,0 +1,4 @@
+dependencies {
+    compile project(":Albianj.Kernel")
+    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+}

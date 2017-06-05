@@ -1,0 +1,5 @@
+dependencies {
+    compile project(":Albianj.Kernel")
+    compile group: 'org.dom4j', name: 'dom4j', version: '2.0.0'
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
+}

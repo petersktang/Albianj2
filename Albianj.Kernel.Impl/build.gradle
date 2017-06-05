@@ -1,0 +1,13 @@
+dependencies {
+    compile project(":Albianj.Commons")
+    compile project(":Albianj.Kernel")
+    compile project(":Albianj.Loader")
+    compile group: 'commons-cli', name: 'commons-cli', version: '1.4'
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+    compile group: 'org.dom4j', name: 'dom4j', version: '2.0.0'
+    compile group: 'jaxen', name: 'jaxen', version: '1.1.6'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
+}

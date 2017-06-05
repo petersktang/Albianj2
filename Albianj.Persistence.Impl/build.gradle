@@ -1,0 +1,21 @@
+dependencies {
+    compile project(":Albianj.Cached")
+    compile project(":Albianj.Commons")
+    compile project(":Albianj.Kernel")
+    compile project(":Albianj.Loader")
+    compile project(":Albianj.Persistence")
+    compile project(":Albianj.Security")
+    compile group: 'commons-cli', name: 'commons-cli', version: '1.4'
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
+    compile group: 'commons-dbcp', name: 'commons-dbcp', version: '1.4'
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+    compile group: 'commons-pool', name: 'commons-pool', version: '1.6'
+    compile group: 'org.apache.commons', name: 'commons-pool2', version: '2.4.2'
+    compile group: 'org.dom4j', name: 'dom4j', version: '2.0.0'
+    compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
+    compile group: 'jaxen', name: 'jaxen', version: '1.1.6'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.25'
+}

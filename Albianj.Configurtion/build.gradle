@@ -1,0 +1,5 @@
+dependencies {
+    compile project(":Albianj.Kernel")
+    compile project(":Albianj.Kernel.Impl")
+    compile project(":Albianj.Persistence")
+}
