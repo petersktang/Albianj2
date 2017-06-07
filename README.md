@@ -65,7 +65,9 @@ albianj2主要的适用范围是互联网企业。并不是那么的适合传统
 
 #Albianj2 文档列表和qq群:  
 [Albianj的设计思路文档] (http://www.94geek.com/2015/albianj.html "albianj设计思路文档")  
-[Albianj使用文档] (http://www.94geek.com/2016/albianj-user-manual.html "albianj使用文档")  
+[Albianj使用文档] (http://www.94geek.com/2016/albianj-user-manual.html "albianj使用文档")
+[腾讯文学内容中心分布式统一框架的设计与实现] (http://www.94geek.com/blog/2015/albianj/)
+
 qq群：514089546
 
 # Albianj2入门：  
