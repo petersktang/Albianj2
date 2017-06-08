@@ -39,26 +39,11 @@ subprojects {
     }
 }
 
-subprojects.each { subproject ->
-    evaluationDependsOn(subproject.path)
-}
-
-task allJar (type: Jar, dependsOn: subprojects.assemble) {
+jar {
     baseName = 'Albianj2-all-jars'
+    version = '2.0.0-SNAPSHOT'
+    dependsOn(subprojects.assemble)
     subprojects.each { subproject ->
         from subproject.configurations.archives.allArtifacts.files.collect{ zipTree(it) }
     }
 }
-
-/*
-dependencies {
-    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.5'
-    compile group: 'com.google.inject', name: 'guice', version: '4.1.0'
-    compile group: 'com.google.guava', name: 'guava', version: '22.0'
-    compile group: 'org.gradle', name: 'gradle-core', version: '3.5'
-    compile group: 'org.gradle', name: 'gradle-logging', version: '3.5'
-    compile group: 'org.gradle', name: 'gradle-tooling-api', version: '3.5'
-    compile group: 'org.gradle', name: 'gradle-base-services', version: '3.5'
-    compile group: 'org.codehaus.groovy', name: 'groovy-all', version: '2.4.11'
-}
-*/
